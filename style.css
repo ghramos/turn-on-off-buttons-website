@@ -33,22 +33,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   }
   
-  .button1 {
-    color: white;
-    background-color: #2d7eff;
-    border: 5px solid transparent;
-    transition: 0.2s ease;
-    border-radius: 50px;
-  }
-  
-  .button1:hover {
-    color: #2d7eff;
-    background-color: white;
-    transform: scale(1.1);
-    border: 5px solid #2d7eff;
-  }
-  
-  .button2 {
+  .buttongreen {
     color: black;
     background-color: #10FFB4;
     transition: 0.2s ease-in-out;
@@ -56,21 +41,21 @@
     border-right: 3px transparent solid;
   }
   
-  .button2:hover {
+  .buttongreen:hover {
     color: #10FFB4;
     background-color: black;
     border-left: #10FFB4 3px solid;
     border-right: #10FFB4 3px solid;
   }
   
-  .button3 {
+  .buttonpurple-blue {
     color: white;
     background: linear-gradient(to right, #8041F2, #3095ED);
     border-radius: 8px;
     transition: 0.2s ease-in-out;
   }
   
-  .button3:hover {
+  .buttonpurple-blue:hover {
     border-radius: 30px;
   }
   
