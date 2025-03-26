@@ -2,14 +2,22 @@
     box-sizing: border-box;
     background-color: #2b2d30;
   }
-  
-  h1 {
-    color: white;
-    font: 1.5em "Dosis", sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  
+  .pageheader {
+    display: flex;
+    flex-direction: row;
+ /**   justify-content: space-between;**/
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .title-pageheader {
+         color: white;
+         font: 1.5em "Dosis", sans-serif;
+         letter-spacing: 1px;
+         text-align: center;
+ }
+
   .container {
     display: flex;
     flex-wrap: wrap;
